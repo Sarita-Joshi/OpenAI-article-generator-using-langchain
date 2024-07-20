@@ -68,16 +68,3 @@ This Article Generator Web App allows users to generate articles based on specif
 4. **Generate Article**
 
    Click the "Generate Article" button to create the article. The form will shift to one side, and the generated article will be displayed on the other.
-
-## Code Structure
-
-- `app.py`: Main Streamlit application script.
-- `requirements.txt`: List of Python dependencies.
-
-## Contribution
-
-Feel free to fork the repository and submit pull requests with improvements or bug fixes. For any issues or feature requests, please open an issue on GitHub.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
