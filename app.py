@@ -20,6 +20,8 @@ else:
 
 with col1:
     topic = st.text_input('Topic', placeholder='The future of AI..')
+    llm_choice = st.selectbox("Choose LLM", ["openai", "gemini", "groq"])
+
     keywords = keywords = st_tags(
         label='Keywords',
         text='Press enter to add more',
@@ -55,7 +57,8 @@ with col1:
             "audience": audience,
             "outline": [section.strip() for section in outline.split(",")],
             "purpose": purpose,
-            "language": "en"
+            "language": "en",
+            "llm_choice": llm_choice,
         }
         article = generate_article(article_params)
         st.session_state.article = article
