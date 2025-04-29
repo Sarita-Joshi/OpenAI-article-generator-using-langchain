@@ -24,3 +24,5 @@ def search_wikipedia(query: str) -> str:
         return summary
     except Exception as e:
         return f"Failed: {e}"
+
+#TODO: handle exceptions. fallback to websearch
