@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_tags import st_tags
-from generate import generate_article
+from v1.generate import generate_article
 
 import os
 import torch
