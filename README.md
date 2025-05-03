@@ -5,17 +5,17 @@
 
 ## 📚 Table of Contents
 
-- [🧩 Project Motivation](#-project-motivation)
-- [🧠 System Capabilities](#-system-capabilities)
-- [🔄 Evolution of the Architecture](#-evolution-of-the-architecture)
-- [🔧 Achievements So Far](#-achievements-so-far)
-- [🧪 Benchmark Goals](#-benchmark-goals)
-- [🚀 Current Implementations](#-current-implementations)
-- [⚖️ Comparison of Approaches](#-comparison-of-approaches)
-- [📦 Directory Structure](#-directory-structure)
-- [📌 Getting Started](#-getting-started)
-- [🛤️ Roadmap & Next Phases](#-roadmap--next-phases)
-- [📜 License](#-license)
+- [Project Motivation](#-project-motivation)
+- [System Capabilities](#-system-capabilities)
+- [Evolution of the Architecture](#-evolution-of-the-architecture)
+- [Achievements So Far](#-achievements-so-far)
+- [Benchmark Goals](#-benchmark-goals)
+- [Current Implementations](#-current-implementations)
+- [Comparison of Approaches](#-comparison-of-approaches)
+- [Directory Structure](#-directory-structure)
+- [Getting Started](#-getting-started)
+- [Roadmap & Next Phases](#-features-to-explore)
+
 
 
 ## 🧩 Project Motivation
@@ -69,11 +69,11 @@ This hub currently supports:
 
 | Stage | Description | Status |
 |-------|-------------|--------|
-| ✅ Stage 1 | Prompt wrapper with OpenAI | Completed |
-| ✅ Stage 2 | LangChain agent tools (Wikipedia, RAG, etc.) | Completed |
-| ✅ Stage 3 | Multi-agent flow with LangGraph | Completed |
-| 🔜 Stage 4 | Graph-based planner (Minigraph-style) | Planned |
-| 🔮 Stage 5 | Multimodal + voice-based interaction | In Research |
+| Stage 0 | Prompt wrapper with OpenAI | Completed |
+| Stage 1 | LangChain agent tools (Wikipedia, RAG, etc.) | Completed |
+| Stage 2 | Multi-agent flow with LangGraph | Completed |
+| Stage 3 | Graph-based planner (Minigraph-style) | Planned |
+| Stage 4 | Multimodal + voice-based interaction | In Research |
 
 
 
@@ -185,21 +185,6 @@ OPENAI_API_KEY=
 TAVILY_API_KEY=
 ...
 ```
-
-
-
-## 🛤️ Roadmap & Next Phases
-
-| Feature                     | Status     |
-|----------------------------|------------|
-| ✅ Multi-agent workflow     | Done       |
-| ✅ LLM Adapter pattern      | Done       |
-| ✅ Tool integration (RAG)   | Done       |
-| 🔄 Graph planning (Minigraph) | Upcoming   |
-| 🧠 Auto section reasoning   | In progress|
-| 🖼️ Multimodal/vision LLM    | Researching|
-| 🔗 Notion + Slack export    | Planned    |
-| 🛡️ Guardrails + EvalSuite   | Planned    |
 
 
 ## 🧭 Features to explore...
